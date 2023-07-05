@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: darkslategray;
+}
+#game{
+    position: absolute;
+    top: 0;
+    left: calc(50vw - 200px);
+}
