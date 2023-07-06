@@ -16,5 +16,5 @@ https://github.com/PandaMan16/gamejame-5
 ## Screenshots
 
 ![App Screenshot](https://pandatown.fr/project/GameJam/desktop.png)
-![App Screenshot](https://pandatown.fr/project/GameJam/TRAILER_Panda_RaceSurvivor.mp4)
+![App Video](https://pandatown.fr/project/GameJam/TRAILER_Panda_RaceSurvivor.mp4)
 
