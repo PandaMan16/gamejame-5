@@ -107,12 +107,12 @@ const convagen = { //image ratio 8 (150/16) 225 / 169 chario+panda
                 document.querySelector("#game").style.display = "none";
                 document.querySelector("#defeat").style.display = "";
                 convagen.val.start = false;
-                clearInterval(convagen.val.forkill);
+                clearInterval(convagen.forkill);
             }else if(color == "green"){
                 document.querySelector("#game").style.display = "none";
                 document.querySelector("#victoire").style.display = "";
                 convagen.val.start = false;
-                clearInterval(convagen.val.forkill);
+                clearInterval(convagen.forkill);
             }
         }
         context.drawImage(convagen.imgcash.gamebg_lb_1, 0, convagen.val.mapoffset)
