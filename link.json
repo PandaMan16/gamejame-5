@@ -1,0 +1,6 @@
+{
+	"name":"GameJAM",
+	"image":{"mobile":"","desktop":"desktop.png"},
+	"url":{"github":"github.com/PandaMan16/gamejame-5","demo":"GameJAM.pandatown.fr"},
+	"description":"Panda Race Survivor X :<br>...Notre Panda experimenté connait la légende de la Confiture de Pixels , <br>et il se doit de récuperer cette merveilleuse recette technologique,<br>et ce avant ses rivaux, les pandas roux !<br>Arpentant les routes de la forêt de moelleux bambous, en lutte contre les hordes de roux, il les affronte armé de son fidèle(et délicieux) BambouStick !!<br>Contrôles : Flèches Droite et Gauche pour se diriger, Flèche Haut pour sauter<br>"
+}
