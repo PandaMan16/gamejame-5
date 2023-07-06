@@ -1,28 +1,4 @@
-
-document.addEventListener('DOMContentLoaded', function() {
-    const retour = document.getElementById('retour');
-    const startButton = document.getElementById('startButton');
-    const menu = document.getElementById('menu');
-    const game = document.getElementById('game');
-
-    game.style.display = 'none'; // Masquer le jeu
-    startButton.addEventListener('click', function() {
-        menu.style.display = 'none'; // Masquer le menu
-        game.style.display = ''; // Afficher le jeu
-        // convagen.init(); // Initialiser le jeu
-    });
-
-    retour.addEventListener('click', function() {
-        game.style.display='none';
-        menu.style.display='';
-    });
-});
-
-//boutton retour// qui fonctionne pas
-    
-    //------------------------------------//
-
-
+    // JS pour le bouton panda!
     
 function init() {
   
@@ -197,6 +173,7 @@ function init() {
       }, speed)
     }
   
+    
     const pandaFace = document.querySelector('.panda_face')
     const button = document.querySelector('#Gen_Panda')
     const cover = document.querySelector('.cover')
@@ -282,21 +259,3 @@ function init() {
   }
   
   window.addEventListener('DOMContentLoaded', init)
-  
-    // Fonction pour déplacer le personnage vers la gauche
-    function moveLeft() {
-        // Code pour déplacer le personnage vers la gauche
-        console.log("Déplacer le personnage vers la gauche");
-      }
-      
-      // Fonction pour déplacer le personnage vers la droite
-      function moveRight() {
-        // Code pour déplacer le personnage vers la droite
-        console.log("Déplacer le personnage vers la droite");
-      }
-  
-      function jump() {
-        // Code pour déplacer le personnage vers la droite
-        console.log("Déplacer le personnage vers la droite");
-      }
-
