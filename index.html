@@ -18,10 +18,10 @@
 
 <body>
 
-  <audio id="audio-player">
-    <source src="chemin/vers/votre/fichier.mp3" type="audio/mpeg">
-    Votre navigateur ne supporte pas l'élément audio.
-  </audio>
+  <!--audio id="audio-player">
+    <source src="./assets/sound/stomp-117637.mp3" type="audio/mpeg">
+    
+  </!--audio-->
 
 
     <div id="game">
@@ -51,7 +51,7 @@
         <div class="wrapper">
             <img src="assets/img/" alt="">
             <img class="pandacontent"   src="assets/img/HUDSmile.png"  alt="panda content"></img>
-            <h1>Panda Race Survivor X <br><span class="oui">de ses grands morts</span>  </h1>
+            <h1>Panda Race Survivor X </h1>
             <button class="nes-pointer nes-btn is-success" id="Gen_Panda">
               <div class="panda_face">
                 <svg x="0px" y="0px" width="100%" height="100%" viewBox="0 0 91.7 71.3" >
@@ -96,11 +96,11 @@
     <script type="module" src="./assets/script/main.js"></script>
     <script type="module" src="./assets/script/menu.js"></script>
     <script type="module" src="./assets/script/panda.js"></script>
-    <!-- <script>
-        const arrowleft = document.querySelector("");
-        arrowleft.addEventListener("click",()=>{
-            convagen.left();
-        });
-    </script> -->
+    <script>
+        const audio = new Audio();
+        audio.src = './assets/sound/stomp-117637.mp3';
+        audio.autoplay = true;
+        audio.volume = 0.5;
+    </script>
 </body>
 </html>
